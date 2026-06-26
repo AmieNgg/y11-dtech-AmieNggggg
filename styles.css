@@ -1,0 +1,110 @@
+body {
+    background-color: f4f4f6;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+	padding: 20px 0;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 32px;
+}
+
+p {
+    color: black;
+    text-align: left;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: red !important;
+}
+#box a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+#box a:hover {
+    background-color: #aa0014;
+    color: white;
+}
+
+#box a.active {
+    background-color: #f3d1d4;
+    color: black;
+    font-weight: bold;
+}
+#box {
+    width: 100%;
+    margin: 0;
+    padding:10px;
+    border: 4px solid black;
+    text-align: center;
+    background-color: #bf0f15;
+}
+#banner-container{
+	width:100%;
+}
+.hop{
+	border: 1px #ccc soild;
+	background-color:#706e6e;
+	padding-left: 10px;
+	border-radius:15px;
+	color:#ffeded;
+	width: 100%;
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
+.school-banner{
+	width:100%;
+	display:flex;
+}
+.content-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.content-container.reverse {
+    flex-direction: row-reverse;
+}
+
+.side-image {
+    max-width: 45%;
+    height: auto;
+}
+
+.text-side {
+    flex: 1;
+}
+
+.image-side-group {
+    max-width: 50%;
+    display: flex;
+    gap: 10px;
+}
+
+.image-side-group img {
+    width: 50%;
+    height: auto;
+}
